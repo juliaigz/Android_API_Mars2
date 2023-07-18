@@ -3,19 +3,11 @@ package com.example.actividadesmars.views
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.widget.Toast
-import android.widget.Toast.LENGTH_SHORT
-import androidx.activity.viewModels
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.actividadesmars.databinding.ActivityMainBinding
-import com.example.actividadesmars.models.AdapterMars
-import com.example.actividadesmars.models.MarsDAO
-import com.example.actividadesmars.models.remote.MarsApiClass
-import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
     lateinit var mBinding: ActivityMainBinding

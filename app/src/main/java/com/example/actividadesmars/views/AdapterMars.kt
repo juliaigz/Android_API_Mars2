@@ -1,14 +1,13 @@
-package com.example.actividadesmars.models
+package com.example.actividadesmars.views
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import androidx.lifecycle.LiveData
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.actividadesmars.R
-import com.example.actividadesmars.models.remote.MarsApiClass
+import com.example.actividadesmars.models.MarsEntity
 
 class AdapterMars( var datos: List<MarsEntity>) : RecyclerView.Adapter<AdapterMars.TuViewHolder>() {
 
